@@ -9,7 +9,7 @@ Este proyecto contiene ejemplos y apuntes sobre los fundamentos de Python, ideal
   - Tipos de datos: cadenas (strings), enteros (int), flotantes (float), listas, diccionarios, tuplas
 
 - **Operadores**
-  - Matemáticos: `+`, `-`, `*`, `/`
+  - Matemáticos: `+`, `-`, `*`, `/`, `//`, `%`, `**`
   - Lógicos: `and`, `or`, `not`
   - Comparación: `==`, `!=`, `<`, `>`, `<=`, `>=`
 
@@ -18,9 +18,18 @@ Este proyecto contiene ejemplos y apuntes sobre los fundamentos de Python, ideal
   - Ciclos: `for`, `while`
   - Control de flujo: `break`, `continue`, `pass`
 
+- **Colecciones**
+  - Listas: creación, acceso, métodos principales (`append`, `insert`, `remove`, `pop`, `sort`, `reverse`)
+  - Tuplas: inmutabilidad y usos
+  - Diccionarios: claves y valores, acceso y métodos
+
 - **Funciones**
   - Definición y llamada de funciones
   - Parámetros y valores de retorno
+
+- **Manejo de cadenas**
+  - Métodos útiles: `strip`, `lower`, `upper`, `replace`, `find`, `split`
+  - Indexación y slicing
 
 - **Buenas prácticas**
   - Uso de PEP 8 para el estilo de código
@@ -34,4 +43,4 @@ Este proyecto contiene ejemplos y apuntes sobre los fundamentos de Python, ideal
 
 ---
 
-¡Explora los notebooks y archivos de este repositorio para ver
+¡Explora los notebooks y archivos de este repositorio para ver ejemplos prácticos y aprender más sobre Python!
