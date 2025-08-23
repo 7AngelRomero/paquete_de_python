@@ -24,8 +24,23 @@ Este proyecto contiene ejemplos y apuntes sobre los fundamentos de Python, ideal
   - Diccionarios: claves y valores, acceso y métodos
 
 - **Funciones**
-  - Definición y llamada de funciones
-  - Parámetros y valores de retorno
+  - Definición de funciones con `def`
+  - Parámetros y argumentos
+  - Valores de retorno con `return`
+  - Funciones con y sin parámetros
+  - Documentación de funciones (docstrings)
+  - Tipado de parámetros y valores de retorno (anotaciones de tipo)
+  - Ejemplo:
+    ```python
+    def suma(a, b):
+        """
+        Suma dos números y devuelve el resultado.
+        a: int o float
+        b: int o float
+        returns: int o float
+        """
+        return a + b
+    ```
 
 - **Manejo de cadenas**
   - Métodos útiles: `strip`, `lower`, `upper`, `replace`, `find`, `split`
